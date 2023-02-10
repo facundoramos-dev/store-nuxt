@@ -7,7 +7,7 @@
     <p class="my-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus id vitae expedita harum ipsum ab
       molestias
       accusantium sint nemo qui!</p>
-    <p>{{ data }}</p>
+    <!-- <p>{{ data }}</p> -->
   </div>
 </template>
 
