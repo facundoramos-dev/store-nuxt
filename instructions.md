@@ -1,6 +1,6 @@
 
 ## Pasos para crear un nuevo proyecto en Nuxt.js
-## [Steps to create a new project in Nuxt.js]
+[Steps to create a new project in Nuxt.js]
 
 ```bash
 npx nuxi init <project>
@@ -12,10 +12,10 @@ npm i
 
 
 ## server corriendo con npm run dev
-## [server running with npm run dev]
+[server running with npm run dev]
 
 ## agregar tailwindcss
-## [add tailwindcss]
+[add tailwindcss]
 
 ```bash
 npm install -D tailwindcss postcss autoprefixer
@@ -24,7 +24,7 @@ npx tailwindcss init
 ```
 
 ## en el archivo nuxt.config.ts
-## [in the nuxt.config.ts file]:
+[in the nuxt.config.ts file]:
 
 ```bash
 export default defineNuxtConfig({
@@ -38,7 +38,7 @@ export default defineNuxtConfig({
 ```
 
 ## en el archivo tailwind.config.js
-## [in the tailwind.config.js file]
+[in the tailwind.config.js file]
 
 ```bash
 module.exports = {
@@ -58,7 +58,7 @@ module.exports = {
 ```
 
 ## crear el archivo tailwindcss
-## [create the tailwindcss file]
+[create the tailwindcss file]
 
 ```bash
 @tailwind base;
@@ -67,7 +67,7 @@ module.exports = {
 ```
 
 ## agregar la ubicacion del archivo creado en nuxt.config.ts
-## [add the location of the file created in nuxt.config.ts]
+[add the location of the file created in nuxt.config.ts]
 
 ```bash
 export default defineNuxtConfig({
@@ -81,6 +81,24 @@ export default defineNuxtConfig({
 })
 ```
 
-## Instructivo https://tailwindcss.com/docs/guides/nuxtjs#3
+Instructivo https://tailwindcss.com/docs/guides/nuxtjs#3
+
+## Tambien se puede agregar simplemente el modulo desde la web de Nuxt.js
+
+```bash
+npm install --save-dev @nuxtjs/tailwindcss
+```
+
+## Agregar al Archivo nuxt.config.ts:
+[Add to File nuxt.config.ts]
+
+```bash
+export default defineNuxtConfig({
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ]
+})
+```
+
 
 ## Good Luck ;)
