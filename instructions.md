@@ -99,6 +99,18 @@ export default defineNuxtConfig({
   ]
 })
 ```
+## Agregar el archivo de Estilos
+[Add the Styles file]
 
+```bash
+<you project>
++---<you project>
+    |
+    \---assets
+      |
+      \---css
+        |
+        \---tailwind.css
+```
 
 ## Good Luck ;)
