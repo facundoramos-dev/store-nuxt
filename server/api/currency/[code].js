@@ -5,9 +5,10 @@ export default defineEventHandler(async (event) => {
 
 	const uri = `https://api.currencyapi.com/v3/latest?currencies=${code}&apikey=${apiKey}`;
 
-	// const { data } = await $fetch(uri);
+	const { data } = await $fetch(uri);
 	return {
-    data: { "GBP": { "code": "GBP", "value": 0.825351 }},
+		data
+    // data: { "GBP": { "code": "GBP", "value": 0.825351 }},
 	};
   
 });

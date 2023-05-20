@@ -11,7 +11,6 @@
 </template>
 
 <script setup>
-import '@finastra/circular-progress';
 
 definePageMeta({
   layout: "products"
